@@ -1,0 +1,15 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "A Cypress project configured automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "latest",
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-file-upload": "^5.0.8",
+    "playwright-webkit": "latest"
+  }
+}
